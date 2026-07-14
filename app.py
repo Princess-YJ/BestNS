@@ -5,6 +5,8 @@ Sokcho Order Processing System v14.4
 - Config: load_config_local, List-based, Session State
 """
 import os
+import faulthandler
+faulthandler.enable()
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import re
 from datetime import datetime
