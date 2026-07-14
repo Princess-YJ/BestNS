@@ -4,6 +4,8 @@ Sokcho Order Processing System v14.4
 - GROUP_MULTIPLY: append (x{Qty}) only, no param word repeat
 - Config: load_config_local, List-based, Session State
 """
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import re
 from datetime import datetime
 from io import BytesIO
