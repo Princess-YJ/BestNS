@@ -4,3 +4,4 @@ xlsxwriter==3.2.9
 streamlit==1.55.0
 msoffcrypto-tool>=5.0
 numpy<2.0.0
+pyarrow==14.0.2
