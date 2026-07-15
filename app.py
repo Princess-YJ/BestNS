@@ -984,7 +984,7 @@ def main():
         return
 
     st.subheader("Raw Data Preview (상위 5행)")
-    st.dataframe(df.astype(str))
+    st.table(df.head())
 
     # Process button: run pipeline and store in session state
     if st.button("Process Orders"):
